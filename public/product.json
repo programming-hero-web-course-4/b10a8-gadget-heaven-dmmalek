@@ -1,0 +1,196 @@
+[
+  {
+    "product_id": "P001",
+    "product_title": "iPhone 15 Pro Max",
+    "product_image": "../src/assets/productImage/iphone-15-pro-max.jpg",
+    "category": "Smartphones",
+    "price": 1299.99,
+    "description": "The iPhone 15 Pro Max offers superior performance with a sleek design and powerful camera system.",
+    "specification": [
+      "6.7-inch Super Retina XDR display",
+      "48MP main camera",
+      "A17 Pro chip",
+      "5G capable"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "P002",
+    "product_title": "Samsung Galaxy S23 Ultra",
+    "product_image": "../src/assets/productImage/galaxy-s23-ultra-green.webp",
+    "category": "Smartphones",
+    "price": 1199.99,
+    "description": "Experience unmatched performance with the Galaxy S23 Ultra featuring a powerful Snapdragon chipset and 200MP camera.",
+    "specification": [
+      "6.8-inch Dynamic AMOLED display",
+      "200MP main camera",
+      "Snapdragon 8 Gen 2",
+      "5000mAh battery"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P003",
+    "product_title": "Google Pixel 8 Pro",
+    "product_image": "../src/assets/productImage/Pixel-8-Pro-Obsidian.jpg",
+    "category": "Smartphones",
+    "price": 999.99,
+    "description": "Google Pixel 8 Pro brings advanced AI features, top-notch camera, and pure Android experience.",
+    "specification": [
+      "6.7-inch LTPO OLED display",
+      "50MP triple camera system",
+      "Tensor G3 chip",
+      "5000mAh battery"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P004",
+    "product_title": "OnePlus 11",
+    "product_image": "../src/assets/productImage/OnePlus-11.jpg",
+    "category": "Smartphones",
+    "price": 899.99,
+    "description": "OnePlus 11 delivers flagship-level performance with a stunning display and fast charging.",
+    "specification": [
+      "6.7-inch AMOLED display",
+      "50MP main camera",
+      "Snapdragon 8 Gen 2",
+      "5000mAh battery"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P005",
+    "product_title": "Xiaomi 13 Pro",
+    "product_image": "../src/assets/productImage/redmi-note-13-pro.webp",
+    "category": "Smartphones",
+    "price": 899.99,
+    "description": "Xiaomi 13 Pro offers exceptional photography with a Leica camera and powerful Snapdragon performance.",
+    "specification": [
+      "6.73-inch AMOLED display",
+      "50MP Leica camera",
+      "Snapdragon 8 Gen 2",
+      "4820mAh battery"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P006",
+    "product_title": "Sony Xperia 1 IV",
+    "product_image": "../src/assets/productImage/Sony-Xperia-1-IV.jpg",
+    "category": "Smartphones",
+    "price": 1399.99,
+    "description": "Sony Xperia 1 IV features a 4K OLED display, perfect for entertainment and professional-grade photography.",
+    "specification": [
+      "6.5-inch 4K OLED display",
+      "12MP triple camera system",
+      "Snapdragon 8 Gen 1",
+      "5000mAh battery"
+    ],
+    "availability": false,
+    "rating": 4.5
+  },
+  {
+    "product_id": "P007",
+    "product_title": "MacBook Pro 14-inch",
+    "product_image": "../src/assets/productImage/macbook-pro-m3.webp",
+    "category": "Laptops",
+    "price": 1999.99,
+    "description": "Apple MacBook Pro 14-inch with M2 Pro chip offers top-tier performance for professionals.",
+    "specification": [
+      "14.2-inch Liquid Retina XDR display",
+      "M2 Pro chip",
+      "16GB RAM",
+      "512GB SSD"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "P008",
+    "product_title": "Dell XPS 13",
+    "product_image": "../src/assets/productImage/xps-13-plus.webp",
+    "category": "Laptops",
+    "price": 1499.99,
+    "description": "Dell XPS 13 is a powerful ultrabook with a beautiful design and Intel Core i7 processor.",
+    "specification": [
+      "13.4-inch FHD+ display",
+      "Intel Core i7",
+      "16GB RAM",
+      "512GB SSD"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P009",
+    "product_title": "Bose QuietComfort 45 Headphones",
+    "product_image": "../src/assets/productImage/quietcomfort.webp",
+    "category": "Accessories",
+    "price": 329.99,
+    "description": "Bose QuietComfort 45 headphones offer superb noise-canceling technology and superior comfort.",
+    "specification": [
+      "Noise-canceling",
+      "24-hour battery life",
+      "Bluetooth 5.1",
+      "Touch-sensitive controls"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "P010",
+    "product_title": "Apple AirPods Pro 2nd Gen",
+    "product_image": "../src/assets/productImage/airpods-pro-2nd-generation.webp",
+    "category": "Accessories",
+    "price": 249.99,
+    "description": "Apple AirPods Pro 2nd Gen with active noise cancellation and immersive sound quality.",
+    "specification": [
+      "Active Noise Cancellation",
+      "Customizable fit",
+      "Up to 6 hours of listening time",
+      "Adaptive Transparency"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P011",
+    "product_title": "Apple Watch Ultra",
+    "product_image": "../src/assets/productImage/watch-ultra.jpeg",
+    "category": "Smart Watches",
+    "price": 799.99,
+    "description": "The Apple Watch Ultra is built for extreme sports enthusiasts, featuring a rugged design, larger display, and advanced GPS.",
+    "specification": [
+      "49mm titanium case",
+      "S8 chip",
+      "Always-on Retina display",
+      "100m water resistance",
+      "36 hours of battery life"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "P012",
+    "product_title": "Samsung Galaxy Watch 6 Classic",
+    "product_image": "../src/assets/productImage/galaxy-watch6.jpg",
+    "category": "Smart Watches",
+    "price": 399.99,
+    "description": "Samsung Galaxy Watch 6 Classic blends style and functionality with advanced health tracking, rotating bezel, and a sleek design.",
+    "specification": [
+      "1.5-inch Super AMOLED display",
+      "Exynos W920 processor",
+      "Heart rate monitor",
+      "Sleep tracking",
+      "50m water resistance"
+    ],
+    "availability": true,
+    "rating": 4.8
+  }
+]

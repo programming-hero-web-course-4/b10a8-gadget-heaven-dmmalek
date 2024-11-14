@@ -21,7 +21,7 @@ const addToStoreData = (data) => {
     toast('Add to cart successfully');
 }
 
-export { addToStoreData };
+export { addToStoreData, getStoredData };
 // for wish list button
 
 const getWishListData = () => {
@@ -48,4 +48,4 @@ const addToWishList = (data) => {
     toast('Add to Wishlist successfully');
 }
 
-export { addToWishList };
+export { addToWishList, getWishListData };

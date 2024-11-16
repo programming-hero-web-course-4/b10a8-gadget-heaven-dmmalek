@@ -6,7 +6,7 @@ import WishList from "../components/Dashboard/WishList";
 const Dashboard = () => {
   const [cart, setCata] = useState([]);
   const [wish, setWish] = useState([]);
-  const [showCart, setShowCart] = useState(false);
+  const [showCart, setShowCart] = useState(true);
   useEffect(() => {
     //cart data
     const getData = getStoredData();
@@ -36,12 +36,14 @@ const Dashboard = () => {
         {/* Conditionally render Cart or Wish component based on state */}
         {showCart ? (
           <div>
+            <h1 className="text-2xl">Cart List</h1>
             {cart.map((product, id) => (
               <Cart key={id} cart={product}></Cart>
             ))}
           </div>
         ) : (
           <div>
+            <h1 className="text-4xl">WishList</h1>
             {wish.map((wishdata, i) => (
               <WishList key={i} wish={wishdata}></WishList>
             ))}

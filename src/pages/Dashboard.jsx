@@ -11,16 +11,21 @@ const Dashboard = () => {
   const [cart, setCart] = useState([]);
   const [wish, setWish] = useState([]);
   const [showCart, setShowCart] = useState(true);
+  const [totalCost, setTotalCost] = useState(0);
   useEffect(() => {
     //cart data
     const getData = getStoredData();
     setCart(getData);
-
     //wish-list data
     const getWish = getWishListData();
     setWish(getWish);
   }, []);
 
+  useEffect(() => {
+    // Calculate total cost whenever cart is updated
+    const total = cart.reduce((accu, item) => accu + item.price, 0);
+    setTotalCost(total.toFixed(2));
+  }, [cart]);
   const handleSort = () => {
     const sorted = [...cart].sort((a, b) => b.price - a.price);
     console.log(sorted);
@@ -48,7 +53,12 @@ const Dashboard = () => {
         </div>
 
         <div>
-          <ShortAndPur handleSort={handleSort}></ShortAndPur>
+          <ShortAndPur
+            handleSort={handleSort}
+            totalCost={totalCost}
+            cart={cart}
+            setTotalCost={setTotalCost}
+          ></ShortAndPur>
         </div>
         {/* Conditionally render Cart or Wish component based on state */}
         {showCart ? (

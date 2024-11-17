@@ -1,11 +1,27 @@
-import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
-export default function ShortAndPur({ handleSort }) {
+export default function ShortAndPur({
+  handleSort,
+  totalCost,
+  setTotalCost,
+  cart,
+}) {
+  const navigate = useNavigate();
+  const handlePurchase = () => {
+    localStorage.removeItem("cart");
+    setTotalCost(0);
+  };
+  const handleRedirect = () => {
+    navigate("/");
+  };
   return (
     <>
-      <div className="flex items-center">
+      <div className="flex items-center justify-between">
         <div>
           <h1>Cart</h1>
+        </div>
+        <div>
+          <h1>Total Cost :{totalCost} </h1>
         </div>
         {/* short by price button  */}
         <div>
@@ -17,9 +33,13 @@ export default function ShortAndPur({ handleSort }) {
         <div>
           <button
             className="btn"
-            onClick={() => document.getElementById("my_modal_5").showModal()}
+            onClick={() => {
+              document.getElementById("my_modal_5").showModal();
+              handlePurchase();
+            }}
+            disabled={cart.length === 0 || totalCost === 0}
           >
-            open modal
+            Purchase
           </button>
           <dialog
             id="my_modal_5"
@@ -28,12 +48,14 @@ export default function ShortAndPur({ handleSort }) {
             <div className="modal-box">
               <h3 className="font-bold text-lg">Hello!</h3>
               <p className="py-4">
-                Press ESC key or click the button below to close
+                {cart.reduce((accu, item) => accu + item.price, 0)}
               </p>
               <div className="modal-action">
                 <form method="dialog">
                   {/* if there is a button in form, it will close the modal */}
-                  <button className="btn">Close</button>
+                  <button onClick={handleRedirect} className="btn">
+                    Close
+                  </button>
                 </form>
               </div>
             </div>

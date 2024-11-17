@@ -20,7 +20,11 @@ const addToStoreData = (data) => {
     localStorage.setItem('cart', JSON.stringify(storeList))
     toast('Add to cart successfully');
 }
-
+// const removeData = (id) => {
+//     const storeList = getStoredData();
+//     const remaining = storeList.filter(item => item.id != id)
+//     localStorage.setItem('cart', JSON.stringify(remaining))
+// }
 export { addToStoreData, getStoredData };
 // for wish list button
 

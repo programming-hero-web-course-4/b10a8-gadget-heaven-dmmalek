@@ -2,19 +2,30 @@ import { useEffect, useState } from "react";
 import { getStoredData, getWishListData } from "../utility/utility";
 import Cart from "../components/Dashboard/Cart";
 import WishList from "../components/Dashboard/WishList";
+import ShortAndPur from "../components/Dashboard/ShortAndPur";
 
 const Dashboard = () => {
-  const [cart, setCata] = useState([]);
+  useEffect(() => {
+    document.title = "Dashboard | Gadget Heaven";
+  }, []);
+  const [cart, setCart] = useState([]);
   const [wish, setWish] = useState([]);
   const [showCart, setShowCart] = useState(true);
   useEffect(() => {
     //cart data
     const getData = getStoredData();
-    setCata(getData);
+    setCart(getData);
+
     //wish-list data
     const getWish = getWishListData();
     setWish(getWish);
   }, []);
+
+  const handleSort = () => {
+    const sorted = [...cart].sort((a, b) => b.price - a.price);
+    console.log(sorted);
+    setCart(sorted);
+  };
 
   const handleCartClick = () => {
     setShowCart(true); // Show Cart Component
@@ -26,13 +37,19 @@ const Dashboard = () => {
   return (
     <>
       <div>
-        <h1>Product Details</h1>
-        <button className="btn btn-accent" onClick={handleCartClick}>
-          Cart
-        </button>
-        <button className="btn btn-accent" onClick={handleWishClick}>
-          Wish
-        </button>
+        <div>
+          <h1>Product Details</h1>
+          <button className="btn btn-accent" onClick={handleCartClick}>
+            Cart
+          </button>
+          <button className="btn btn-accent" onClick={handleWishClick}>
+            Wish
+          </button>
+        </div>
+
+        <div>
+          <ShortAndPur handleSort={handleSort}></ShortAndPur>
+        </div>
         {/* Conditionally render Cart or Wish component based on state */}
         {showCart ? (
           <div>

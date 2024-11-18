@@ -20,14 +20,23 @@ const ProductCards = () => {
   }, [category, data]);
 
   return (
-    <div className="flex justify-between">
-      <Gadgets />
-      <div className="grid grid-cols-3">
-        {filter.map((productData, id) => (
-          <Card key={id} productData={productData}></Card>
-        ))}
+    <>
+      <div className="my-16">
+        <div className="my-16">
+          <h1 className="text-center text-4xl font-bold">
+            Explore Cutting-Edge Gadgets
+          </h1>
+        </div>
+        <div className="lg:flex lg:justify-between mx-auto max-w-6xl gap-4">
+          <Gadgets />
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 grow">
+            {filter.map((productData, id) => (
+              <Card key={id} productData={productData}></Card>
+            ))}
+          </div>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

@@ -21,12 +21,11 @@ const Gadgets = () => {
   ];
   return (
     <div className="mx-auto">
-      {/* <h1 className="text-center text-4xl font-bold">
-        Explore Cutting-Edge Gadgets
-      </h1> */}
-      {categories?.map((category, id) => (
-        <Catagories key={id} categories={category}></Catagories>
-      ))}
+      <div>
+        {categories?.map((category, id) => (
+          <Catagories key={id} categories={category}></Catagories>
+        ))}
+      </div>
     </div>
   );
 };

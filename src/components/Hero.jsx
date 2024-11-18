@@ -1,18 +1,20 @@
 const Hero = () => {
   return (
     <div>
-      <div className="hero bg-base-200 min-h-screen">
+      <div className="hero  min-h-screen bg-customPurple">
         <div className="hero-content text-center">
           <div className="max-w-screen-lg">
             <h1 className="text-6xl font-bold">
               Upgrade Your Tech Accessorize with Gadget Heaven Accessories
             </h1>
-            <p className="py-6">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+            <p className="py-6 max-w-3xl mx-auto">
+              Explore the latest gadgets that will take your experience to the
+              next level. From smart devices to the coolest accessories, we have
+              it all!
             </p>
-            <button className="btn btn-primary">Get Started</button>
+            <button className="btn text-xl bg-white rounded-full text-customPurple font-bold">
+              Shop Now
+            </button>
           </div>
         </div>
       </div>

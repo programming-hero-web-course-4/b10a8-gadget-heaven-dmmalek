@@ -6,9 +6,9 @@ const Card = ({ productData }) => {
   const navigate = useNavigate();
   return (
     <div>
-      <div className="card bg-base-100 w-96 shadow-xl">
+      <div className="card bg-base-100 max-w-96 shadow-xl">
         <figure>
-          <img src={product_image} alt={product_title} />
+          <img className="w-72" src={product_image} alt={product_title} />
         </figure>
         <div className="card-body">
           <h2 className="card-title">{product_title}</h2>

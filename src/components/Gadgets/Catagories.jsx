@@ -8,7 +8,7 @@ const Catagories = ({ categories }) => {
         <NavLink
           to={`/productscards/${category}`}
           role="tab"
-          className="btn btn-outline btn-primary p-2"
+          className="btn btn-outline btn-primary p-2 w-32 my-2"
         >
           {category}
         </NavLink>

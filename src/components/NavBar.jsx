@@ -1,8 +1,12 @@
 import { IoCartOutline } from "react-icons/io5";
 import { CiHeart } from "react-icons/ci";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 const NavBar = () => {
+  const { pathname } = useLocation();
+  const backgroundColor =
+    (pathname === "/" || pathname.includes("productscards")) &&
+    "bg-customPurple text-white";
   const links = (
     <>
       <li>
@@ -17,8 +21,10 @@ const NavBar = () => {
     </>
   );
   return (
-    <div>
-      <div className="navbar bg-customPurple">
+    <div className="px-2">
+      <div
+        className={`navbar px-8 rounded-tl-lg rounded-tr-lg mt-5 ${backgroundColor}`}
+      >
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

@@ -9,14 +9,22 @@ const ProductCards = () => {
   const { category } = useParams();
 
   useEffect(() => {
-    if (category) {
+    if (!category || category === "All Product") {
+      setFilter(data);
+    } else {
       const filterData = [...data].filter(
         (product) => product.category === category
       );
       setFilter(filterData);
-    } else {
-      setFilter(data);
     }
+    //   if (category) {
+    //     const filterData = [...data].filter(
+    //       (product) => product.category === category
+    //     );
+    //     setFilter(filterData);
+    //   } else {
+    //     setFilter(data);
+    //   }
   }, [category, data]);
 
   return (

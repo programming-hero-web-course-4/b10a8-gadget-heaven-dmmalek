@@ -1,4 +1,5 @@
 export const categories = [
+
   {
     id: "P001",
     category: "Smartphones"

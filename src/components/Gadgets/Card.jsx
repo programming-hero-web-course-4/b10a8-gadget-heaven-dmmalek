@@ -6,13 +6,13 @@ const Card = ({ productData }) => {
   const navigate = useNavigate();
   return (
     <div>
-      <div className="card bg-base-100 max-w-96 shadow-xl">
+      <div className="card bg-base-100 max-w-96 shadow-xl p-1">
         <figure>
-          <img className="w-72" src={product_image} alt={product_title} />
+          <img className="w-36 h-40" src={product_image} alt={product_title} />
         </figure>
         <div className="card-body">
           <h2 className="card-title">{product_title}</h2>
-          <p>
+          <p className="text-[#09080F] opacity-60 font-semibold">
             Price:
             {price}
             <span>k</span>

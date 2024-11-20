@@ -3,6 +3,10 @@ import Catagories from "./Catagories";
 const Gadgets = () => {
   const categories = [
     {
+      id: "P000",
+      category: "All Product",
+    },
+    {
       id: "P001",
       category: "Smartphones",
     },
@@ -21,7 +25,7 @@ const Gadgets = () => {
   ];
   return (
     <div className="mx-auto">
-      <div>
+      <div className="p-4 bg-white shadow-2xl rounded-md">
         {categories?.map((category, id) => (
           <Catagories key={id} categories={category}></Catagories>
         ))}

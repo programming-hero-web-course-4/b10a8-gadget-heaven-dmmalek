@@ -2,7 +2,7 @@
   {
     "product_id": "P001",
     "product_title": "iPhone 15 Pro Max",
-    "product_image": "../src/assets/productImage/iphone-15-pro-max.jpg",
+    "product_image": "https://i.ibb.co.com/Xs1N5zM/iphone-15-pro-max.jpg",
     "category": "Smartphones",
     "price": 1299.99,
     "description": "The iPhone 15 Pro Max offers superior performance with a sleek design and powerful camera system.",
@@ -18,7 +18,7 @@
   {
     "product_id": "P002",
     "product_title": "Samsung Galaxy S23 Ultra",
-    "product_image": "../src/assets/productImage/galaxy-s23-ultra-green.webp",
+    "product_image": "https://i.ibb.co.com/Wv1DLcJ/galaxy-s23-ultra-green.webp",
     "category": "Smartphones",
     "price": 1199.99,
     "description": "Experience unmatched performance with the Galaxy S23 Ultra featuring a powerful Snapdragon chipset and 200MP camera.",
@@ -34,7 +34,7 @@
   {
     "product_id": "P003",
     "product_title": "Google Pixel 8 Pro",
-    "product_image": "../src/assets/productImage/Pixel-8-Pro-Obsidian.jpg",
+    "product_image": "https://i.ibb.co.com/K98trRF/Pixel-8-Pro-Obsidian.jpg",
     "category": "Smartphones",
     "price": 999.99,
     "description": "Google Pixel 8 Pro brings advanced AI features, top-notch camera, and pure Android experience.",
@@ -50,7 +50,7 @@
   {
     "product_id": "P004",
     "product_title": "OnePlus 11",
-    "product_image": "../src/assets/productImage/OnePlus-11.jpg",
+    "product_image": "https://i.ibb.co.com/C2FB9gq/One-Plus-11.jpg",
     "category": "Smartphones",
     "price": 899.99,
     "description": "OnePlus 11 delivers flagship-level performance with a stunning display and fast charging.",
@@ -66,7 +66,7 @@
   {
     "product_id": "P005",
     "product_title": "Xiaomi 13 Pro",
-    "product_image": "../src/assets/productImage/redmi-note-13-pro.webp",
+    "product_image": "https://i.ibb.co.com/qdn2mx3/redmi-note-13-pro.webp",
     "category": "Smartphones",
     "price": 899.99,
     "description": "Xiaomi 13 Pro offers exceptional photography with a Leica camera and powerful Snapdragon performance.",
@@ -82,7 +82,7 @@
   {
     "product_id": "P006",
     "product_title": "Sony Xperia 1 IV",
-    "product_image": "../src/assets/productImage/Sony-Xperia-1-IV.jpg",
+    "product_image": "https://i.ibb.co.com/KbnnnJm/Sony-Xperia-1-IV.jpg",
     "category": "Smartphones",
     "price": 1399.99,
     "description": "Sony Xperia 1 IV features a 4K OLED display, perfect for entertainment and professional-grade photography.",
@@ -98,7 +98,7 @@
   {
     "product_id": "P007",
     "product_title": "MacBook Pro 14-inch",
-    "product_image": "../src/assets/productImage/macbook-pro-m3.webp",
+    "product_image": "https://i.ibb.co.com/441n94p/macbook-pro-m3.webp",
     "category": "Laptops",
     "price": 1999.99,
     "description": "Apple MacBook Pro 14-inch with M2 Pro chip offers top-tier performance for professionals.",
@@ -114,7 +114,7 @@
   {
     "product_id": "P008",
     "product_title": "Dell XPS 13",
-    "product_image": "../src/assets/productImage/xps-13-plus.webp",
+    "product_image": "https://i.ibb.co.com/ZSZyT3r/xps-13-plus.webp",
     "category": "Laptops",
     "price": 1499.99,
     "description": "Dell XPS 13 is a powerful ultrabook with a beautiful design and Intel Core i7 processor.",
@@ -130,7 +130,7 @@
   {
     "product_id": "P009",
     "product_title": "Bose QuietComfort 45",
-    "product_image": "../src/assets/productImage/quietcomfort.webp",
+    "product_image": "https://i.ibb.co.com/vH42rPp/quietcomfort.webp",
     "category": "Accessories",
     "price": 329.99,
     "description": "Bose QuietComfort 45 headphones offer superb noise-canceling technology and superior comfort.",
@@ -146,7 +146,7 @@
   {
     "product_id": "P010",
     "product_title": "Apple AirPods Pro 2nd Gen",
-    "product_image": "../src/assets/productImage/airpods-pro-2nd-generation.webp",
+    "product_image": "https://i.ibb.co.com/Rz63b3f/airpods-pro-2nd-generation.webp",
     "category": "Accessories",
     "price": 249.99,
     "description": "Apple AirPods Pro 2nd Gen with active noise cancellation and immersive sound quality.",
@@ -162,7 +162,7 @@
   {
     "product_id": "P011",
     "product_title": "Apple Watch Ultra",
-    "product_image": "../src/assets/productImage/watch-ultra.jpeg",
+    "product_image": "https://i.ibb.co.com/LJFL6Gj/watch-ultra.jpg",
     "category": "Smart Watches",
     "price": 799.99,
     "description": "The Apple Watch Ultra is built for extreme sports enthusiasts, featuring a rugged design, larger display, and advanced GPS.",
@@ -179,7 +179,7 @@
   {
     "product_id": "P012",
     "product_title": "Samsung Galaxy Watch 6",
-    "product_image": "../src/assets/productImage/galaxy-watch6.jpg",
+    "product_image": "https://i.ibb.co.com/3cRnVws/galaxy-watch6.jpg",
     "category": "Smart Watches",
     "price": 399.99,
     "description": "Samsung Galaxy Watch 6 Classic blends style and functionality with advanced health tracking, rotating bezel, and a sleek design.",

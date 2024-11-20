@@ -192,22 +192,5 @@
     ],
     "availability": true,
     "rating": 4.8
-  },
-  {
-    "product_id": "P013",
-    "product_title": "Samsung Galaxy Watch 6 Classic",
-    "product_image": "../src/assets/productImage/galaxy-watch6.jpg",
-    "category": "Smart Watches",
-    "price": 399.99,
-    "description": "Samsung Galaxy Watch 6 Classic blends style and functionality with advanced health tracking, rotating bezel, and a sleek design.",
-    "specification": [
-      "1.5-inch Super AMOLED display",
-      "Exynos W920 processor",
-      "Heart rate monitor",
-      "Sleep tracking",
-      "50m water resistance"
-    ],
-    "availability": true,
-    "rating": 4.8
   }
 ]

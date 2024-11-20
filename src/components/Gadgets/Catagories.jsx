@@ -1,6 +1,8 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useParams } from "react-router-dom";
 
 const Catagories = ({ categories }) => {
+  const param = useParams();
+  console.log(param);
   const { category } = categories;
   return (
     <>
@@ -8,7 +10,11 @@ const Catagories = ({ categories }) => {
         <NavLink
           to={`/productscards/${category}`}
           role="tab"
-          className="btn p-2 w-32 my-2 rounded-3xl"
+          className={`btn p-2 w-32 my-2 rounded-3xl ${
+            (param.category == category ||
+              (!param?.category && category === "All Product")) &&
+            "bg-customPurple"
+          }`}
         >
           {category}
         </NavLink>

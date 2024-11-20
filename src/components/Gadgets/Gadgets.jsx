@@ -22,6 +22,10 @@ const Gadgets = () => {
       id: "P011",
       category: "Smart Watches",
     },
+    {
+      id: "P002",
+      category: "Monitor",
+    },
   ];
   return (
     <div className="mx-auto">

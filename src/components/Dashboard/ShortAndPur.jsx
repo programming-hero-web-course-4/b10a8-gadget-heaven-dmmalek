@@ -53,14 +53,27 @@ export default function ShortAndPur({
                 className="modal modal-bottom sm:modal-middle"
               >
                 <div className="modal-box">
-                  <h3 className="font-bold text-lg">Hello!</h3>
-                  <p className="py-4">
-                    {cart.reduce((accu, item) => accu + item.price, 0)}
+                  <div className="border-b-2 text-center space-y-4 py-2">
+                    <img
+                      className="mx-auto"
+                      src="./public/Group.png"
+                      alt="Group"
+                    />
+                    <h3 className="font-bold text-2xl">Payment Successfully</h3>
+                  </div>
+                  <p className="text-center text-base text-[#09080F99] font-semibold my-2">
+                    Thanks for purchasing.
                   </p>
-                  <div className="modal-action">
+                  <p className="text-center text-xl text-[#09080F99] font-semibold">
+                    Total : {cart.reduce((accu, item) => accu + item.price, 0)}
+                  </p>
+                  <div className="modal-action justify-center w-full">
                     <form method="dialog">
                       {/* if there is a button in form, it will close the modal */}
-                      <button onClick={handleRedirect} className="btn">
+                      <button
+                        onClick={handleRedirect}
+                        className="btn btn-block px-52 text-xl font-bold"
+                      >
                         Close
                       </button>
                     </form>

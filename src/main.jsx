@@ -9,6 +9,7 @@ import Statistics from "./pages/Statistics";
 import Dashboard from "./pages/Dashboard";
 import ProductCards from "./components/Gadgets/ProductCards";
 import ProductDetails from "./components/Gadgets/ProductDetails";
+import ProductSupport from "./pages/ProductSupport";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -43,7 +44,12 @@ const router = createBrowserRouter([
       },
       {
         path: "/dashboard",
-        element: <Dashboard></Dashboard>,
+        element: <Dashboard />,
+      },
+      ,
+      {
+        path: "/support",
+        element: <ProductSupport> </ProductSupport>,
       },
     ],
   },

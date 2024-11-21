@@ -56,7 +56,7 @@ export default function ShortAndPur({
                   <div className="border-b-2 text-center space-y-4 py-2">
                     <img
                       className="mx-auto"
-                      src="./public/Group.png"
+                      src="https://i.ibb.co.com/fXH7Cyx/Group.png"
                       alt="Group"
                     />
                     <h3 className="font-bold text-2xl">Payment Successfully</h3>

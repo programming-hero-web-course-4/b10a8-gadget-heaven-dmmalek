@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Hero = () => {
   return (
     <>
@@ -13,9 +15,12 @@ const Hero = () => {
                 next level. From smart devices to the coolest accessories, we
                 have it all!
               </p>
-              <button className="btn text-xl bg-white rounded-full text-customPurple font-bold">
+              <Link
+                to="/dashboard"
+                className="btn text-xl bg-white rounded-full text-customPurple font-bold"
+              >
                 Shop Now
-              </button>
+              </Link>
             </div>
           </div>
         </div>

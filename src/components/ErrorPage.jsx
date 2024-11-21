@@ -5,7 +5,7 @@ const ErrorPage = () => {
   return (
     <div className="grid items-center justify-center min-h-screen">
       <div>
-        <img src="../../public/404page.png" alt="404 Page" />
+        <img src="https://i.ibb.co.com/p2wN0kq/404page.png" alt="404 Page" />
         <div className="text-center">
           <Link
             to={"/"}

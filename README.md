@@ -1,6 +1,6 @@
 # Project name : Gadget Heaven
 
-### Live Link: https://aquamarine-palmier-7c13d9.netlify.app/
+### Live Link: https://gadget-heaven-malek.netlify.app/
 
 ### Private Github Repo Link : https://github.com/programming-hero-web-course-4/b10a8-gadget-heaven-dmmalek
 

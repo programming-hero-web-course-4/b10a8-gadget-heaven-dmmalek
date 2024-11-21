@@ -1,7 +1,10 @@
 # Project name : Gadget Heaven
 
-- Live Link: https://aquamarine-palmier-7c13d9.netlify.app/
-- Private Github Repo Link : https://github.com/programming-hero-web-course-4/b10a8-gadget-heaven-dmmalek
+### Live Link: https://aquamarine-palmier-7c13d9.netlify.app/
+
+### Private Github Repo Link : https://github.com/programming-hero-web-course-4/b10a8-gadget-heaven-dmmalek
+
+### Requirement Document Link: https://github.com/ProgrammingHero1/B10-A8-gadget-heaven/blob/main/Batch-10_Assignment-08.pdf
 
 # List of React Fundamental concepts used in the project:
 

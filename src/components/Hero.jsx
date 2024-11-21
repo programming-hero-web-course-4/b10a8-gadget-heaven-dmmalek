@@ -26,7 +26,11 @@ const Hero = () => {
         </div>
       </div>
       <div className="max-w-3xl  mx-auto -mt-20 p-5 bg-[rgba(255,255,255,0.3)] rounded-lg">
-        <img className="rounded-lg h-[400px] w-full" src="./banner.jpg" />
+        <img
+          className="rounded-lg h-[400px] w-full"
+          src="https://i.ibb.co.com/236fK7h/banner.jpg"
+          alt="banner"
+        />
       </div>
     </>
   );

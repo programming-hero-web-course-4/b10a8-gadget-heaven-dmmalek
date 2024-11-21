@@ -59,7 +59,7 @@
 
 - LocalStorage
 
-# 5 features of your website/project
+# 5 features of website/project
 
 ### 1. Dynamic and Responsive Navigation System
 
